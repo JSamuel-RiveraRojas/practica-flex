@@ -1,0 +1,39 @@
+px/* Hoja de estilos */
+
+*{
+       margin: 0;
+   padding: 0;
+}
+
+nav{
+   display: flex; /* modelo de flez*/
+   background-color: rgb(56, 46, 46);
+   justify-content: space-around; /*alineacion horizontal */
+   align-items:center; /*en este momento esta es la alineacion vertical*/
+
+}
+
+
+
+nav img{
+    width: 75px;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight:500;
+    transition: 0.6s;
+
+}
+
+nav a:hover{
+
+    background-color: rgb(114, 99, 99);
+    color: rgb(201, 185, 185);
+    border-radius: 25px;
+    scale: 1.5;
+    transition: 0.4s;
+}
